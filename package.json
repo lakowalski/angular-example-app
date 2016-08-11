@@ -4,6 +4,7 @@
   "description": "Angular example app",
   "main": "main.js",
   "author": "Lukasz Kowalski <lukasz@citroneo.pl>",
+  "url": "https://lakowalski@bitbucket.org/lakowalski/angular-example-app.git",
   "config": {
     "bower_directory": "./bower_components"
   },
@@ -13,17 +14,20 @@
     "start": "node main.js"
   },
   "license": "ISC",
+  "engine": "node >= 5.8.0",
   "dependencies": {
     "body-parser": "^1.15.2",
     "bootstrap": "^3.3.7",
+    "bower": "^1.7.9",
     "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "grunt-sass": "^1.2.0",
+    "lodash": "^4.14.2",
     "method-override": "^2.3.6",
     "morgan": "^1.7.0"
   },
   "devDependencies": {
-    "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
-    "grunt-sass": "^1.2.0",
     "grunt-contrib-jshint": "^1.0.0"
   }
 }
